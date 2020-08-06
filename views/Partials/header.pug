@@ -12,7 +12,7 @@ html
 		script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js')
 
 	body
-		// Navigation Bar with required
+		// Navigation Bar with required pug views
 		nav.navbar.navbar-dark.bg-primary.navbar-expand-lg
 			div.container-fluid
 				div.navbar-header
@@ -21,7 +21,6 @@ html
 					if isLogin
 						li.nav-item
 							a.nav-link(href='/logout') Logout
-							
 					else
 						li.nav-item
 							a.nav-link(href='/login') Login
@@ -30,4 +29,4 @@ html
 						li.nav-item
 							a.nav-link(href='/users') Our Members
 	div
-		br
+	
