@@ -8,5 +8,5 @@ wokring with authorization,
 
 added header and footer to the website
 
-stylesheet borrowed from bootstrap website
+stylesheet and navvar borrowed from bootstrap website
 this website database connected mongodb atlas
